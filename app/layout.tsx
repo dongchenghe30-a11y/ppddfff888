@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     alternateLocale: 'en_US',
   },
   alternates: {
-    canonical: 'https://calchub.app',
+    canonical: 'https://jsq.okxxu.com',
   },
   robots: {
     index: true,
@@ -26,7 +26,8 @@ export const metadata: Metadata = {
   },
   other: {
     'google-adsense-account': 'ca-pub-62370889',
-    'baidu-site-verification': 'codeva-qUSdLl3EKv',
+    'baidu-site-verification': 'codeva-BcDnJ0O8sA',
+    '360-site-verification': '046f308c126011f5790b387470684ba0',
   },
 }
 
@@ -38,6 +39,8 @@ export default function RootLayout({
   return (
     <html lang="zh" suppressHydrationWarning>
       <head>
+        <meta name="baidu-site-verification" content="codeva-BcDnJ0O8sA" />
+        <meta name="360-site-verification" content="046f308c126011f5790b387470684ba0" />
         <script dangerouslySetInnerHTML={{ __html: `
           try {
             const theme = localStorage.getItem('theme');
