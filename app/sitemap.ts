@@ -1,8 +1,8 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://xo8.de5.net'
-
+  const baseUrl = 'https://jsq.okxxu.com'
+  
   return [
     {
       url: baseUrl,
